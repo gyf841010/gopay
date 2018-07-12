@@ -2,9 +2,9 @@ package gopay
 
 import (
 	"fmt"
-	"github.com/guidao/gopay/client"
-	"github.com/guidao/gopay/common"
-	"github.com/guidao/gopay/constant"
+	"github.com/gopay/client"
+	"github.com/gopay/common"
+	"github.com/gopay/constant"
 	"net/http"
 	"testing"
 )

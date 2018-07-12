@@ -8,7 +8,7 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"fmt"
-	"github.com/guidao/gopay/common"
+	"github.com/gopay/common"
 	"log"
 	"net/url"
 	"sort"
