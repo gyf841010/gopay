@@ -1,5 +1,5 @@
 * golang语言实现的支付库
-最近在搞支付这块，但是网上的代码基本没有能用的，要么不全，要么有硬伤，所以最后还是自己接了。抽出写的一部分代码，封装下分享出来，希望能给大家一点借鉴意义。
+本项目来自guidao开源项目，修改一处bug。WechatAppClient结构体的callbackURL改为CallbackURL。
 * 支持的支付方式
 目前支持微信app，支付宝网页版，支付宝app。要是谁有新的支付方式也可以合并。
 * 使用方法
@@ -8,10 +8,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/gopay"
-	"github.com/gopay/client"
-	"github.com/gopay/common"
-	"github.com/gopay/constant"
+	"github.com/gyf841010/gopay"
+	"github.com/gyf841010/gopay/client"
+	"github.com/gyf841010/gopay/common"
+	"github.com/gyf841010/gopay/constant"
 	"net/http"
 )
 
